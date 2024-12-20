@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Tugas Free Registration</title></head>
+<body> 
+
+<form action="prosessForm.php" method="GET">
+<!-- letakkan field di sini -->
+<fieldset>
+<h1><p align="center"><legend><font style color="purple">Free Registration</font style color="purple"></h1></legend>
+<table>
+    <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td><input type="name" name="nama" /><br /></td>
+    </tr>       
+
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td>:</td>
+        <td><input type="text" size="5" name="Tgl Lahir"> / <input type="text" size="5" name="Tgl Lahir"> / <input type="text" size="8" name="Tgl Lahir"></br>
+       
+    </tr>
+
+    <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td><textarea name="Alamat" rows="4" cols="50"></textarea></td>
+    </tr>
+
+    <tr>
+        <td>Kota</td>
+        <td>:</td>
+        <td><input type="text" name="Kota"/></td>
+    </tr>
+	
+	<tr>
+			
+		<td>Pekerjaan</td>
+		<td>:</td>	
+		<td><select name=Pekerjaan>
+			<option value="Pelajar/Mahasiswa">Pelajar/Mahasiswa</option>
+			<option value="Buruh">Buruh</option>
+			<option value="Karyawan Swasta">Karyawan Swasta</option>
+			<option value="Tani">Tani</option>
+			<option value="Pns">Pns</option>
+			</select></br>
+		</tr>
+
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td><input type="radio" name="jenisKelamin" /> Pria
+            <input type="radio" name="jenisKelamin" checked="checked"/> Wanita</td>
+    </tr>
+
+    <tr>
+        <td>Hobby</td>
+        <td>:</td>
+			<td><input type="checkbox" name="Hobby" value="HTML" disabled="disabled"/> Reading </input></br>
+            <input type="checkbox" name="Hobby" value="HTML" disabled="disabled"/> Sport </input></br>
+			<input type="checkbox" name="hobby" value="HTML" disabled="disabled"/> Singing </input></br>
+            <input type="checkbox" name="Hobby" value="HTML" checked="checked"/> Traveling </input></td></br>
+		</tr>	
+			<td><input type="button" value="Kirim">
+			<input type="reset" value="Cancel">
+        <td></td>
+        <td></td>
+    </tr>
+
+</table>
+</fieldset>
+
+</form>
+
+</body>
+</html>

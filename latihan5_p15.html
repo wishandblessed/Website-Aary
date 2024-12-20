@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Memasukan Bilangan</title>
+</head>
+<body>
+    <p><script language="javascript">
+        <!--
+            function bilangan()
+            {
+                var bill = parseFloat(document.form.bilanganl.value);
+                if (isNaN (bill))
+                bill=0.0;
+                    document.getElementById('bill').value=bill;
+            }
+            //--></script></p>
+        <FORM NAME ="form">
+            <h1><br>Memasukan Data Lewat Keyboard</h1>
+            <pre>
+                Bilangan :<input type="text" size="11" name="bilangan1">
+
+                Bilangan yang di isi adalah<input type="text" name="hasil" id="bill">
+            </pre>
+            <p>
+                <input type="button" onclick="bilangan()" value="bilangan">
+                <input type="reset" value="ulang">
+        </FORM>
+</body>
+</html>

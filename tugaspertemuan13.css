@@ -1,0 +1,119 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header h1 {
+    display: inline;
+    color: #e74c3c;
+    font-size: 24px;
+    margin: 0;
+}
+.nav {
+    display: inline;
+    margin-left: 20px;
+}
+.nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+.breaking-news {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.breaking-news img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.breaking-news .news-text {
+    flex-grow: 1;
+}
+.breaking-news .news-time {
+    font-size: 12px;
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.main-content {
+    flex: 3;
+    margin-right: 20px;
+}
+.sidebar {
+    flex: 1;
+}
+.latest-news, .most-popular, .top-picks {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.latest-news h2, .most-popular h2, .top-picks h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+.latest-news ul, .most-popular ol {
+    list-style: none;
+    padding: 0;
+}
+.latest-news li, .most-popular li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.latest-news li:last-child, .most-popular li:last-child {
+    border-bottom: none;
+}
+.latest-news li a, .most-popular li a {
+    text-decoration: none;
+    color: #333;
+}
+.latest-news li .time, .most-popular li .time {
+    color: #e74c3c;
+    font-size: 12px;
+}
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.news-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+.news-item h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.news-item p {
+    font-size: 14px;
+    color: #666;
+}
+.ad {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.ad img {
+    width: 100%;
+    height: auto;
+}
